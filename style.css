@@ -1,7 +1,7 @@
-h1 { color:rgb(224, 79, 200)}
+h1 { color:rgb(63, 3, 3)}
 
 .header{
-    background-color: rgb(214, 104, 137);
+    background-color: #da3939;
     display: flex;
     justify-content: space-between;
  }
@@ -13,14 +13,31 @@ h1 { color:rgb(224, 79, 200)}
  }
 
  .grid img{
-     border: 2px solid black;
+     border: 2px solid #000000;
      border-radius: 50px;
  }
 
  .origami {
      border-radius: 20px;
-     background-color: white;
-
+     background-color: #ffffff;
+     padding: 30px;
+     margin: 25px;
      width: 310px;
      font-family: fantasy;
+ }
+
+ .menu{
+     display: flex;
+     justify-content: space-between;
+     background-color: black;
+     padding: 15px;
+     font-size: 20px;
+     font-family: sans-serif;
+     font-weight: 400;
+     color: cornflowerblue;
+ }
+
+ body{
+     margin: 0px;
+     background-color: #5f6bd8;
  }
